@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+/* General Reset */
+*, *:focus {
+    border: 0;
+    margin: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Those links tho ;) */
+a {
+    color: #00BFFF;
+    text-decoration: none;
+}
+a:hover { color: #0099CC; }
+a, a:hover { transition: .3s ease all; }
+
+/* ~ Start Theme ~ */
+body {
+    font-family: 'Oxygen', sans-serif;
+    color: #444;
+}
+
+/* I'ma rapper straight outta Compton */
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -130px;
+    margin-left: -160px; 
+    height: 260px;
+    width: 320px;
+    text-align: center;
+}
+
+div.site-logo {
+    display: inline-block;
+    background-color: #444;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+div.site-logo > a {
+    display: block;
+    background-image: url('/img/elystus-logo-2-nobg.png');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    box-sizing: content-box;
+}
+
+div.content h1 {
+    line-height: 40px;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+div.content a { font-size: 18px; line-height: 18px; } 
